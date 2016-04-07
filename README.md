@@ -1,5 +1,5 @@
 ##Quote Machine
-A Random Quote Generator using Mashape Quote Api. Inspired to buid this project based on Front end Project of Free Code Camp.   
+A Random Quote Generator using Mashape Quote Api. Inspired to build this project based on Front end Project of Free Code Camp.   
 
 [Live Action](http://codepen.io/hemansutanty/full/EKomed)
 
