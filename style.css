@@ -1,0 +1,27 @@
+body{
+	background-color:  #2196f3;
+	text-align: center;
+}
+.quote-box{
+	background-color: #ffffff;
+	color: #2196f3;
+	margin: 0 auto;
+	border-radius: 1%;
+	float: none;
+	margin-top: 20%;
+	padding:3em;
+	text-align: center;
+	font-size: 1.4em;
+}
+h2{
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: underline;
+}
+.footer p{
+	color:#ffffff;
+}
+a, a:hover, a:visited , a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
