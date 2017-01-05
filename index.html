@@ -17,17 +17,18 @@
 				var currentQuote = "", currentAuthor = "";
 				var colors = [" #f44336"," #e91e63"," #9c27b0"," #3f51b5"," #2196f3","#00bcd4","#009688","#4caf50"," #8bc34a"," #ffc107"," #ff9800","#ff5722"," #795548"," #9e9e9e","#607d8b"];
 				$.ajax({
-    					url:"https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous",
-    					type: "POST",	
+    					url:"http://quotes.stormconsultancy.co.uk/random.json",
+    					type: "GET",	
     					headers:{
-    						"X-Mashape-Key": "aDjdfZKjw5msh57gFJsiRN7efBP4p1gFkmAjsnRkzcHx57V8a2",
-    						"Content-Type": "application/x-www-form-urlencoded",
+    						"Content-Type": "application/json",
   							"Accept": "application/json"
     					},
+              crossDomain: true,
+              dataType: "jsonp",
     					success: function(response) {
-      						var r = JSON.parse(response);
-      						currentQuote = r.quote;
-      						currentAuthor = r.author;
+      						//var r = JSON.parse(response);
+      						currentQuote = response.quote;
+      						currentAuthor = response.author;
       						$("#mQuote").animate({
           						opacity: 0
         					}, 500,
@@ -59,17 +60,18 @@
       				});
     			$("button").click(function(){
   					$.ajax({
-    					url:"https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie",
-    					type: "POST",	
-    					headers:{
-    						"X-Mashape-Key": "aDjdfZKjw5msh57gFJsiRN7efBP4p1gFkmAjsnRkzcHx57V8a2",
-    						"Content-Type": "application/x-www-form-urlencoded",
-  							"Accept": "application/json"
-    					},
+    					url:"http://quotes.stormconsultancy.co.uk/random.json",
+              type: "GET",  
+              headers:{
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+              },
+              crossDomain: true,
+              dataType: "jsonp",
     					success: function(response) {
-      						var r = JSON.parse(response);
-      						currentQuote = r.quote;
-      						currentAuthor = r.author;
+      						//var r = JSON.parse(response);
+      						currentQuote = response.quote;
+      						currentAuthor = response.author;
       						$("#mQuote").animate({
           						opacity: 0
         					}, 500,
