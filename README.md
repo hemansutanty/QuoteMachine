@@ -6,7 +6,7 @@ A Random Quote Generator using Mashape Quote Api. Inspired to build this project
 
 ####I owe free Beer to the guys over
 
-1. [Mashape Api](https://market.mashape.com/andruxnet/random-famous-quotes)
+1. [Storm Programming Api](http://quotes.stormconsultancy.co.uk/api)
 2. [jQuery](https://jquery.com/)
 3. [Bootstrap](http://getbootstrap.com/)
 
