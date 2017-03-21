@@ -1,14 +1,14 @@
 ## Quote Machine
 A Random Quote Generator using Mashape Quote Api. Inspired to build this project based on Front end Project of Free Code Camp.   
 
-[Live Action] (http://codepen.io/hemansutanty/full/EKomed)
+[Live Action](http://codepen.io/hemansutanty/full/EKomed)
 
 
 #### I owe free Beer to the guys over
 
-1. [Storm Programming Api] (http://quotes.stormconsultancy.co.uk/api)
-2. [jQuery] (https://jquery.com/)
-3. [Bootstrap] (http://getbootstrap.com/)
+1. [Storm Programming Api](http://quotes.stormconsultancy.co.uk/api)
+2. [jQuery](https://jquery.com/)
+3. [Bootstrap](http://getbootstrap.com/)
 
 ### The MIT License (MIT)
 
